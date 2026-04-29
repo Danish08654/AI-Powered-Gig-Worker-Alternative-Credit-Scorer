@@ -9,21 +9,21 @@ What It Does
 4) Serves predictions via a FastAPI REST endpoint
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
-Start the API 
+1) Start the API 
 
-cd api
+1.1 cd api
 
-pip install -r requirements.txt
+1.2 pip install -r requirements.txt
 
-uvicorn main:app --reload
+1.3 uvicorn main:app --reload
 
-Start the dashboard
+2) Start the dashboard
 
-cd frontend
+2.1 cd frontend
 
-pip install streamlit plotly requests
+2.2 pip install streamlit plotly requests
 
-streamlit run app.py
+2.3 streamlit run app.py
 
 Model Performance
 
