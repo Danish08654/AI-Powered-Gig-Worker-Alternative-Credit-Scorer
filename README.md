@@ -1,7 +1,7 @@
 An end-to-end ML system that scores gig workers for credit eligibility using non-traditional financial signals income patterns,
 platform tenure, payment behaviour with full SHAP explainability and a live API.
 
-What It Does
+# What It Does
 
 1) Scores a gig worker's default risk using 14 engineered financial features
 2) Returns a 300–850 credit score, a risk tier, and a loan decision
@@ -9,9 +9,9 @@ What It Does
 4) Serves predictions via a FastAPI REST endpoint
 5) Visualises results on a Streamlit dashboard with a live gauge chart
 
+----
 
-
-1) Start the API 
+#  Start the API 
 
 
 1.1 cd api
@@ -20,8 +20,9 @@ What It Does
 
 1.3 uvicorn main:app --reload
 
+---
 
-2) Start the dashboard
+#  Start the dashboard
 
    
 2.1 cd frontend
@@ -30,8 +31,9 @@ What It Does
 
 2.3 streamlit run app.py
 
+---
 
-4) Model Performance
+#  Model Performance
 
 ROC-AUC
 
@@ -45,9 +47,9 @@ handlingscale_pos_weight
 
 StoppingEarly stopping (50 rounds)
 
+----
 
-
-What I Learned
+# What I Learned
 
 1) End-to-end ML pipeline from raw data to deployed API
    
@@ -64,3 +66,5 @@ What I Learned
 7) Model serialisation and metadata management
    
 8) Streamlit dashboard with live API integration
+
+---
